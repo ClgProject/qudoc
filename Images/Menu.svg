@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.497" height="34.559" viewBox="0 0 39.497 34.559">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="39.497" height="34.559" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Menu" clip-path="url(#clip-path)">
+    <path id="Menu-2" data-name="Menu" d="M0,34.559V29.621H24.687v4.938ZM0,19.749V14.811H39.5v4.938ZM0,4.938V0H39.5V4.938Z"/>
+  </g>
+</svg>

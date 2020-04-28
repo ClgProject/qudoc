@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@media screen and (max-width: 1504px) {
+  .btn_shadow_container {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .content {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    -ms-grid-rows: 2fr !important;
+        grid-template-rows: 2fr !important;
+  }
+  .txt_conent_container {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    grid-gap: 50px;
+  }
+  .features {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    -ms-grid-rows: 3fr !important;
+        grid-template-rows: 3fr !important;
+    grid-gap: 0px !important;
+    grid-auto-rows: auto !important;
+  }
+}
+
+@media screen and (max-width: 1485px) {
+  .toggle {
+    display: block !important;
+  }
+  .logo {
+    margin-right: 62vw !important;
+  }
+  .menu_container {
+    line-height: 50px !important;
+  }
+  .menu_container .menu_bar {
+    text-align: center;
+  }
+  .menu_container .menu_bar ul {
+    margin: auto;
+    width: 100%;
+    display: none;
+  }
+  .menu_container .menu_bar ul .dropbtn {
+    float: left !important;
+    padding: 0 2.5% !important;
+    font-weight: 600 !important;
+    font-size: 1.3vw !important;
+  }
+  .menu_container .menu_bar ul li {
+    float: left !important;
+    padding: 0 2.5% !important;
+    font-weight: 600 !important;
+    font-size: 1.3vw !important;
+  }
+}
+
+.active {
+  display: block !important;
+  height: 100px !important;
+}
+
+@media only screen and (min-width: 1486px) {
+  .menu_container {
+    height: 50px !important;
+  }
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body a, html a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body ul, body li, html h1, html h2, html h3, html h4, html h5, html h6, html ul, html li {
+  margin: 0;
+  padding: 0;
+}
+
+span, div, section {
+  text-shadow: 8px 8px 7px rgba(0, 0, 0, 0.4);
+}
+
+a {
+  text-shadow: none !important;
+}
+
+a:hover {
+  -webkit-transform-style: flat;
+          transform-style: flat;
+  text-shadow: 8px 8px 7px rgba(0, 0, 0, 0.4) !important;
+}
+
+.btn_shadow_container {
+  font-weight: 800;
+  font-size: 25px;
+  border-radius: 40px;
+  -webkit-box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.4);
+          box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.4);
+}
+
+.btn_shadow_container .btn_container {
+  border-radius: 20px;
+  padding: 20px 60px;
+  mix-blend-mode: screen;
+  background: white;
+  text-align: center;
+  color: #000;
+  text-shadow: none;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  grid-auto-rows: minmax(900px, auto);
+}
+
+.content .img_content_container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content .img_content_container img {
+  height: 80%;
+  width: 95%;
+}
+
+.content .txt_conent_container {
+  width: 90%;
+  height: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  text-align: left;
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .txt_conent_container span {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.features {
+  width: 96%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5em;
+  text-align: center;
+  grid-auto-rows: minmax(200px, auto);
+  margin: 0px 3%;
+}
+
+.features div {
+  width: 90%;
+  margin: 30px;
+}
+
+.features div h1 {
+  margin-bottom: 20px;
+}
+
+.main_container {
+  width: 100%;
+}
+
+.main_container .bg_content {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../Images/Hopital-BG-ConvertImage.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Images/Hopital-BG-ConvertImage.png);
+  background-position: center;
+  background-size: 30%;
+  background-attachment: fixed;
+  color: white;
+}
+
+.part {
+  height: 1080px;
+  width: 100%;
+}
+
+.menu_container {
+  width: 90%;
+  padding: 0px 5%;
+  text-transform: uppercase;
+  background: white;
+  color: black;
+  mix-blend-mode: screen;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.menu_container .logo {
+  margin-right: 17vw;
+  font-size: 30px;
+  font-weight: 400;
+  float: left;
+}
+
+.menu_container .logo span {
+  font-weight: 900;
+}
+
+.menu_container .toggle {
+  float: right;
+  margin-left: auto;
+  position: relative;
+  margin-top: 16px;
+  width: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.menu_container ul {
+  list-style-type: none;
+}
+
+.menu_container ul li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu_container ul li:nth-child(6), .menu_container ul li:nth-child(8) {
+  float: right;
+}
+
+.hero_section {
+  width: 100%;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.hero_section span {
+  font-weight: 800;
+  font-size: 90px;
+  margin-bottom: 50px;
+}
+
+.hero_section .btn_special_large {
+  width: 100% !important;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  margin: 40px 50px;
+  grid-gap: 20px;
+}
+
+footer h1 {
+  text-transform: uppercase;
+}
+
+footer li {
+  font-size: 20px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background: white;
+  color: black;
+  border: none;
+  display: inline-block;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*# sourceMappingURL=style.css.map */
